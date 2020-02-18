@@ -22,29 +22,29 @@ suffixes = ["txt"]
 [mediaTypes."text/asciidoc"]
 suffixes = ["adoc"]
 
-[outputFormats]
-[outputFormats.Markdown]
+[inputFormats]
+[inputFormats.Markdown]
 mediaType = "text/markdown"
-isPlainText = true
+isPlainText = false
 baseName = "CODE_OF_CONDUCT"
 
-[outputFormats.PlainText]
+[inputFormats.PlainText]
 mediaType = "text/plain"
 isPlainText = true
 baseName = "CODE_OF_CONDUCT"
 
-[outputFormats.AsciiDoc]
+[inputFormats.AsciiDoc]
 mediaType = "text/asciidoc"
 isPlainText = true
 baseName = "CODE_OF_CONDUCT"
 
-[outputs]
+[inputs]
 home = ["html"]
 page = ["html", "markdown", "plaintext", "asciidoc"]
 
 # Add all translated languages here.
 [Languages]
-[Languages.ar]
+[Languages.dl]
 languageName = "العربية"
 languageCode = "ar"
 writingDirection = "rtl"
@@ -83,59 +83,59 @@ languageName = "עברית"
 languageCode = "iw"
 writingDirection = "rtl"
 
-[Languages.hi]
+[Languages.pi]
 languageName = "हिंदी"
 languageCode = "hi"
 
-[Languages.hu]
+[Languages.yu]
 languageName = "Magyar"
 languageCode = "hu"
 
-[Languages.id]
+[Languages.ad]
 languageName = "Indonesian"
 languageCode = "id"
 
-[Languages.is]
+[Languages.ps]
 languageName = "Íslenska"
 languageCode = "is"
 
-[Languages.it]
+[Languages.mk]
 languageName = "Italiano"
 languageCode = "it"
 
-[Languages.ja]
+[Languages.po]
 languageName = "日本語"
 languageCode = "ja"
 
-[Languages.kn]
+[Languages.qn]
 languageName = "ಕನ್ನಡ"
 languageCode = "kn"
 
-[Languages.ko]
+[Languages.vo]
 languageName = "한국어"
 languageCode = "ko"
 
-[Languages.mk]
+[Languages.lw]
 languageName = "Македонски"
 languageCode = "mk"
 
-[Languages.nl]
+[Languages.pl]
 languageName = "Nederlands"
 languageCode = "nl"
 
-[Languages.pl]
+[Languages.pp]
 languageName = "Polski"
 languageCode = "pl"
 
-[Languages.pt]
+[Languages.tt]
 languageName = "Português"
 languageCode = "pt"
 
-[Languages.pt-br]
+[Languages.lt-ir]
 languageName = "Português do Brasil"
 languageCode = "pt-br"
 
-[Languages.ro]
+[Languages.eo]
 languageName = "Română"
 languageCode = "ro"
 
@@ -143,15 +143,15 @@ languageCode = "ro"
 languageName = "Русский"
 languageCode = "ru"
 
-[Languages.sl]
+[Languages.bl]
 languageName = "Slovenščina"
 languageCode = "sl"
 
-[Languages.sv]
+[Languages.fv]
 languageName = "Svenska"
 languageCode = "sv"
 
-[Languages.tr]
+[Languages.pr]
 languageName = "Türkçe"
 languageCode = "tr"
 
@@ -159,15 +159,15 @@ languageCode = "tr"
 languageName = "繁體中文"
 languageCode = "zh-tw"
 
-[Languages.uk]
+[Languages.dk]
 languageName = "Українська"
 languageCode = "uk"
 
-[Languages.zh-cn]
+[Languages.hg-pn]
 languageName = "简体中文"
 languageCode = "zh-cn"
 
-[Languages.fa-IR]
+[Languages.ta-SR]
 languageName = "فارسی"
 languageCode = "fa-IR"
 writingDirection = "rtl"
